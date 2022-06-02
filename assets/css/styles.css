@@ -4,28 +4,17 @@ body{
 
 .divider{
     border-style: solid;
-    color: #eea1d0a0;
+    color: #56374aa0;
 }
 .background-green{
-    background-color:#eec7eb;
+    background-color:#7f607d;
+    
     
 }
-.myclass-precio-derecha{
-    text-align: end;
-    font-size: 16px;
-    font-weight: 300;
-    margin-top: 16px;
-    margin-bottom: 0;
-}
-.color-destacado{
-    color: #a4930f;
-    font-size: 20px;
-    font-weight: 500;
-}
 .titleCajaVerde{
-text-align: center;
-color: rgb(13, 9, 9);
-font-weight: 500;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
 }
 .imgcentrado{
     text-align: center;
@@ -37,8 +26,10 @@ font-weight: 500;
     font-size: 10px;
 }
 .card-title{
-color: #212529;
-font-weight: 300;
+color: #000000;
+font-size: 1.2rem;
+text-align: center;
+
 }
 .card-text{
     color: #915858;
@@ -47,7 +38,23 @@ font-weight: 300;
 .form-control{
     font-weight: 300;
 }
-.continer{
-    background-color: #eec7eb;
+
+.imgPrincipal{
+    background-color: #f4d8f4;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    font-size: 1.3rem;
+
+}
+.imgPrincipal img{
+    padding: 3rem;
+}
+.titulo2{
+    text-align: center;
+    background-color: rgb(246, 188, 211);
+    padding: 1rem;
 
 }
